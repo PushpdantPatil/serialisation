@@ -1,0 +1,9 @@
+user_id int primary key auto_increment,  
+name varchar(30),
+salary decimal(9,2),
+role varchar(20),
+appraiser_id int ,
+date_of_join date,
+address varchar(50),
+mail_id  varchar(20),
+password varchar(20));
